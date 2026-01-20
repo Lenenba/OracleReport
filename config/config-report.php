@@ -19,6 +19,8 @@ return [
     ],
     'sheet_suffix' => env('CONFIG_REPORT_SHEET_SUFFIX', '_c'),
     'row_scan_limit' => env('CONFIG_REPORT_ROW_SCAN_LIMIT', 80),
+    'field_scan_limit' => env('CONFIG_REPORT_FIELD_SCAN_LIMIT', 0),
+    'field_chunk_size' => env('CONFIG_REPORT_FIELD_CHUNK_SIZE', 500),
     'sql_transform' => [
         'max_length' => env('CONFIG_REPORT_SQL_MAX_LENGTH', 12000),
     ],
